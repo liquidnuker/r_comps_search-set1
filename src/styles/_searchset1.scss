@@ -68,3 +68,62 @@ h1 {
 
 // search1_02
 // ==================================================/
+.search1_02 {
+  // see mq below for height
+  
+  .search1_02_text { 
+    padding: 6px;
+    
+    // background: url('../../img/search1.svg') no-repeat; 
+    background-position: bottom left;
+  }
+
+  input[type=text] {    
+    color:#bcbcbc;
+    border: 1px solid #666;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: #fcfcfc;
+  }
+
+  input[type=button] {
+    position:relative; 
+    padding: 0px 6px 0px 6px; /* trbl */
+    left: -1px;
+    border: 1px solid #666;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background: #999;  
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #000;
+    }
+  }  
+}
+
+// mobile portrait (320x480) 
+@include mq($from: mobile) {
+  .search1_02 {
+    height: 30px;
+
+    input[type=text] {
+      height: inherit;
+      width: 70%;  
+    }
+
+    input[type=button] {
+      height: inherit;
+      width: 30%;
+    }
+  }
+}
+
+// *mobile landscape (480x320)
+@include mq($from: mobileLandscape) {
+  .search1_02 {
+    width: 60%;
+    display: inline-block;
+  }
+}
