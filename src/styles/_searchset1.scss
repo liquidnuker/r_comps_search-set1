@@ -125,3 +125,60 @@ h1 {
     display: inline-block;
   }
 }
+
+// search1_03
+// ==================================================/
+.search1_03 {
+  // see mq below for height
+  
+  .search1_03_text { 
+    padding-left: 30px;
+    background: url('../../img/sys24-search1.svg') no-repeat; 
+    background-size: auto;
+  }
+
+  input[type=text] {    
+    color:#bcbcbc;
+    border: 1px solid #666;
+    background-color: #fcfcfc;
+  }
+
+  input[type=button] {
+    position:relative; 
+    padding: 0px 6px 0px 6px; /* trbl */
+    left: -1px;
+    border: 1px solid #666;
+    background: #999;  
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #000;
+    }
+  }  
+}
+
+// mobile portrait (320x480) 
+@include mq($from: mobile) {
+  .search1_03 {
+    height: 30px;
+
+    input[type=text] {
+      height: inherit;
+      width: 70%;  
+    }
+
+    input[type=button] {
+      height: inherit;
+      width: 30%;
+    }
+  }
+}
+
+// *mobile landscape (480x320)
+@include mq($from: mobileLandscape) {
+  .search1_03 {
+    width: 60%;
+    display: inline-block;
+  }
+}

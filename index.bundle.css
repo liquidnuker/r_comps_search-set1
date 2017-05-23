@@ -857,3 +857,40 @@ h1 {
   .search1_02 {
     width: 60%;
     display: inline-block; } }
+
+.search1_03 .search1_03_text {
+  padding-left: 30px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIj48cGF0aCBkPSJtMyAyMGw5LTgiIHN0cm9rZS13aWR0aD0iMyIvPjxwYXRoIGQ9Im0yMCA3LjVhNC41IDQuNSAwIDEgMSAtOSAwIDQuNSA0LjUgMCAxIDEgOSAweiIgdHJhbnNmb3JtPSJtYXRyaXgoMS4yMjIyMiAwIDAgMS4yMjIyMi0zLjQ0NC0uNjY3KSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjEuODk1Ii8+PC9nPjwvc3ZnPg==) no-repeat;
+  background-size: auto; }
+
+.search1_03 input[type=text] {
+  color: #bcbcbc;
+  border: 1px solid #666;
+  background-color: #fcfcfc; }
+
+.search1_03 input[type=button] {
+  position: relative;
+  padding: 0px 6px 0px 6px;
+  /* trbl */
+  left: -1px;
+  border: 1px solid #666;
+  background: #999;
+  color: #fff;
+  cursor: pointer; }
+  .search1_03 input[type=button]:hover {
+    background-color: #000; }
+
+@media (min-width: 20em) {
+  .search1_03 {
+    height: 30px; }
+    .search1_03 input[type=text] {
+      height: inherit;
+      width: 70%; }
+    .search1_03 input[type=button] {
+      height: inherit;
+      width: 30%; } }
+
+@media (min-width: 30em) {
+  .search1_03 {
+    width: 60%;
+    display: inline-block; } }
