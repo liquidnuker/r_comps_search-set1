@@ -165,20 +165,21 @@ h1 {
 
     input[type=text] {
       height: inherit;
-      width: 70%;  
+      // width: 70%;  
     }
 
     input[type=button] {
       height: inherit;
-      width: 30%;
+      // width: 30%;
+    }
+
+    select {
+      height: inherit;
     }
   }
 }
 
 // *mobile landscape (480x320)
 @include mq($from: mobileLandscape) {
-  .search1_03 {
-    width: 60%;
-    display: inline-block;
-  }
+    
 }

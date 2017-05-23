@@ -884,13 +884,8 @@ h1 {
   .search1_03 {
     height: 30px; }
     .search1_03 input[type=text] {
-      height: inherit;
-      width: 70%; }
+      height: inherit; }
     .search1_03 input[type=button] {
-      height: inherit;
-      width: 30%; } }
-
-@media (min-width: 30em) {
-  .search1_03 {
-    width: 60%;
-    display: inline-block; } }
+      height: inherit; }
+    .search1_03 select {
+      height: inherit; } }
