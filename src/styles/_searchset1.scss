@@ -71,10 +71,9 @@ h1 {
   // see mq below for height
   
   .search1_02_text { 
-    padding: 6px;
-    
-    // background: url('../../img/search1.svg') no-repeat; 
-    background-position: bottom left;
+    padding-left: 30px;
+    background: url('../../img/sys24-search1.svg') no-repeat; 
+    background-size: auto;
   }
 
   input[type=text] {    

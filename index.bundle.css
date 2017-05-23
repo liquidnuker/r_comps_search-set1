@@ -818,8 +818,9 @@ h1 {
     display: inline-block; } }
 
 .search1_02 .search1_02_text {
-  padding: 6px;
-  background-position: bottom left; }
+  padding-left: 30px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIj48cGF0aCBkPSJtMyAyMGw5LTgiIHN0cm9rZS13aWR0aD0iMyIvPjxwYXRoIGQ9Im0yMCA3LjVhNC41IDQuNSAwIDEgMSAtOSAwIDQuNSA0LjUgMCAxIDEgOSAweiIgdHJhbnNmb3JtPSJtYXRyaXgoMS4yMjIyMiAwIDAgMS4yMjIyMi0zLjQ0NC0uNjY3KSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjEuODk1Ii8+PC9nPjwvc3ZnPg==) no-repeat;
+  background-size: auto; }
 
 .search1_02 input[type=text] {
   color: #bcbcbc;
