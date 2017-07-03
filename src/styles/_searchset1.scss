@@ -130,6 +130,7 @@ h1 {
 // search1_03
 // ==================================================/
 .search1_03 {
+  // requires select-css
   // see mq below for height
   
   .search1_03_text { 
@@ -139,7 +140,7 @@ h1 {
   }
 
   input[type=text] {    
-    color:#bcbcbc;
+    color: green;
     border: 1px solid #666;
     background-color: #fcfcfc;
   }
@@ -163,24 +164,21 @@ h1 {
 @include mq($from: mobile) {
   .search1_03 {
     height: 30px;
-
-    input[type=text] {
-      height: inherit;
-      // width: 70%;  
-    }
-
-    input[type=button] {
-      height: inherit;
-      // width: 30%;
-    }
-
-    select {
-      height: inherit;
-    }
   }
 }
 
 // *mobile landscape (480x320)
 @include mq($from: mobileLandscape) {
-    
+  input[type=text],
+  input[type=button],
+  .custom-select1_01 {
+    height: inherit;
+    vertical-align: text-bottom;
+    // width: 70%;  
+  }
+
+  .custom-select1_01 {
+    margin-left: -1px;
+    width: 15%;
+  }
 }
